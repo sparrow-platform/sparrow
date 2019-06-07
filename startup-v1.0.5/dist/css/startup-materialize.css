@@ -11465,8 +11465,8 @@ body, html {
 }
 
 body {
-  
-  
+  background-color: #000;
+  color: #eee;
 }
 
 body.light-theme {
