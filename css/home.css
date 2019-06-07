@@ -6,3 +6,13 @@
     font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
     
 }
+
+
+.problem {
+  height: 100vh;
+  min-height: 500px;
+  width: 100vw;
+  background: #00bcd4;
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+  
+}
