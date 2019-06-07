@@ -32,14 +32,19 @@
 
     <meta name="theme-color" content="#ffffff ">
 
-     <!-- Compiled and minified CSS -->
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
-     <!-- Compiled and minified JavaScript -->
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-     
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="css/home.css">
 
+    <!-- Compiled and minified JavaScript --> 
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('#trigger').sidenav();
+      });
+    </script>
+    
     <!-- Material Icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
@@ -47,12 +52,13 @@
 
   <body>
 
- 
+  
+
 <!-------------------------------------------Nav Bar--------------------------------->
 <nav class="white">
     <div class="nav-wrapper" style="margin-right:10px;">
-      
-      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="blue-grey-text text-darken-4 material-icons">menu</i></a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger" id="trigger"><i class="blue-grey-text text-darken-4 material-icons">menu</i></a>
+
       <ul class="right hide-on-med-and-down">
           <li><a class="black-text" href="https://sparrow-platform.com">Home</a></li>
           <li><a class="black-text" href="badges.html">Sparrow-Net</a></li>
@@ -60,6 +66,7 @@
           <li><a class="black-text" href="collapsible.html">About</a></li>
       </ul>
     </div>
+    
   </nav>
 
   <ul class="sidenav" id="mobile-demo">
@@ -69,11 +76,7 @@
       <li><a class="black-text" href="collapsible.html">About</a></li>
   </ul>
 
-  <script>
-    $(document).ready(function(){
-      $('.sidenav').sidenav();
-    });
-  </script>
+  
 <!-------------------------------------------Nav Bar--------------------------------->  
 
 
