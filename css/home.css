@@ -1,37 +1,48 @@
-.main {
+/* .main {
     height: 100vh;
     min-height: 500px;  
     font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+    background-image: url('images/sparrow/backImage.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
    
+} */
+
+.main {
+  
+  background-image: url('https://sparrow-platform.com/images/sparrow/backImage.png');
+  height: 100vh;
+  min-height: 700px;
+  background-repeat:no-repeat;
+  background-size: 100vw;
+  background-position:center bottom; /* or 0&#37; 100% */
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
-.backImage{
-  position: absolute;
-  width:100vw;
-  bottom: 0px;
-  margin-bottom: -35px;
-}
+ 
 
 
 .problem {
-  /* height: 100vh; */
-  min-height: 500px;
+  margin-top: 0;
+  margin-bottom: 0;
   width: 100vw;
   font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
-   
   background: #00bcd4;
   font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
-  
 }
+
+
 .problem-activator{
   position: absolute;
     top: 20px;
     right: 20px;
-    
 }
 
 .problems-card{
   height:35vh;
+  min-height: 200px;
   font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif; 
   padding-top: 1vh;
 }
@@ -47,8 +58,6 @@
 
 .problem-text{
   font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
-   
-  
   line-height: 10%;
 }
 
@@ -71,4 +80,9 @@
 ::-webkit-scrollbar-thumb:active {
   background: #888;
   -webkit-box-shadow: inset 1px 1px 2px rgba(0,0,0,0.3);
+}
+
+
+body{
+  background: #00bcd4;
 }
