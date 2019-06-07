@@ -16,3 +16,23 @@
   font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
   
 }
+
+.problems-card{
+  height:27vh;
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif; 
+  padding-top: 1vh;
+}
+
+.problem-image{
+  height: 16vh; 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.problem-text{
+  text-align: center;
+  line-height: 0%;
+}
