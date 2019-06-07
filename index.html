@@ -41,7 +41,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script>
       $(document).ready(function(){
-        $('#trigger').sidenav();
+        $('.sidenav').sidenav();
       });
     </script>
     
@@ -57,7 +57,7 @@
 <!-------------------------------------------Nav Bar--------------------------------->
 <nav class="white">
     <div class="nav-wrapper" style="margin-right:10px;">
-      <a href="#" data-target="mobile-demo" class="sidenav-trigger" id="trigger"><i class="blue-grey-text text-darken-4 material-icons">menu</i></a>
+      <a href="#" data-target="mobile-demo" class="button-collapse sidenav-trigger" ><i class="blue-grey-text text-darken-4 material-icons">menu</i></a>
 
       <ul class="right hide-on-med-and-down">
           <li><a class="black-text" href="https://sparrow-platform.com">Home</a></li>
@@ -70,10 +70,13 @@
   </nav>
 
   <ul class="sidenav" id="mobile-demo">
-      <li><a class="black-text" href="https://sparrow-platform.com">Home</a></li>
-      <li><a class="black-text" href="badges.html">Sparrow-Net</a></li>
-      <li><a class="black-text" href="collapsible.html">Sparrow-AI</a></li>
-      <li><a class="black-text" href="collapsible.html">About</a></li>
+      <div class="cyan" style="width:100%; height:200px;">
+          <img src="images/sparrow/sparrowLogoMin.png" style=" width:60%; margin-left:20%; height:auto; padding: 45px;" alt="Skyline">
+        </div>
+      <li ><a class="wave-effect black-text" href="https://sparrow-platform.com">Home</a></li>
+      <li><a class="wave-effect black-text" href="badges.html">Sparrow-Net</a></li>
+      <li><a class="wave-effect black-text" href="collapsible.html">Sparrow-AI</a></li>
+      <li><a class="wave-effect black-text" href="collapsible.html">About</a></li>
   </ul>
 
   
