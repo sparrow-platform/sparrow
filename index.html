@@ -45,16 +45,51 @@
     <!-- Material Icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-    
-
   </head>
 
 
 
   <body>
 
+  <script>
+    $(document).ready(function(){
+      $('.sidenav').sidenav();
+    });
+  </script>
+          
+        
 
 
+    
+<!-------------------------------------------Nav Bar--------------------------------->
+<nav class="white">
+    <div class="nav-wrapper" style="margin-right:10px;">
+      
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="blue-grey-text text-darken-4 material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+          <li><a class="black-text" href="https://sparrow-platform.com">Home</a></li>
+          <li><a class="black-text" href="badges.html">Sparrow-Net</a></li>
+          <li><a class="black-text" href="collapsible.html">Sparrow-AI</a></li>
+          <li><a class="black-text" href="collapsible.html">About</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <ul class="sidenav" id="mobile-demo">
+      <li><a class="black-text" href="https://sparrow-platform.com">Home</a></li>
+      <li><a class="black-text" href="badges.html">Sparrow-Net</a></li>
+      <li><a class="black-text" href="collapsible.html">Sparrow-AI</a></li>
+      <li><a class="black-text" href="collapsible.html">About</a></li>
+  </ul>
+<!-------------------------------------------Nav Bar--------------------------------->  
+
+
+
+
+
+
+
+<!-------------------------------Main--------------------------------->
   <div class="hide-on-small-only main  white valign-wrapper" >
       <div class="row section valign-wrapper">
         <div class="row valign">
@@ -108,9 +143,15 @@
         </div>
       </div>
 
+<!-------------------------------Main--------------------------------->
+
+
+
+
 
 
     
+<!-------------------------------Problems--------------------------------->
   <div class="problem">
     
     <h5 class="hide-on-small-only center white-text" style="padding-top: 10vh;">
@@ -188,10 +229,11 @@
 
   </div>
 
+<!-------------------------------Problems--------------------------------->
 
 
-    
 
-  </body>
+
+</body>
 
 </html>
