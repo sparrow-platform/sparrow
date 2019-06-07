@@ -1,10 +1,15 @@
 .main {
     height: 100vh;
-    min-height: 500px;
-    width: 100vw;
-    /* background: #00bcd4; */
+    min-height: 500px;  
     font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
-    
+   
+}
+
+.backImage{
+  position: absolute;
+  width:100vw;
+  bottom: 0px;
+  margin-bottom: -35px;
 }
 
 
@@ -12,6 +17,8 @@
   /* height: 100vh; */
   min-height: 500px;
   width: 100vw;
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+   
   background: #00bcd4;
   font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
   
@@ -39,6 +46,8 @@
 
 
 .problem-text{
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+   
   
   line-height: 10%;
 }
