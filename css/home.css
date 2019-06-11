@@ -19,12 +19,12 @@
 .solution {
   padding-bottom: 7vh;
   font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
-  /* background-image: url(../images/sparrow/backSolution.png); */
-  background-size: 100vw;
+  /* background-image: url(../images/background/back.png); */
   background-position:center top;
+  background-repeat:no-repeat;
+  background-size: 100vw;
   margin-top: -20px;
   margin-bottom: -20px;
-  background-repeat:no-repeat;
 }
 
 .solutionImageLarge{
@@ -38,7 +38,7 @@
 }
 
 .solutionImageSmall{
-  margin-top: 10vh;
+  margin-top: 8vh;
   width:100%;
   height: auto; 
   display: block;
@@ -51,14 +51,14 @@
   margin-left: auto;
   margin-right: auto;
   font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
-  margin-top: 20vh;
+  margin-top: 5vh;
 }
 
 .solutionHeadingSmall{
   margin-left: auto;
   margin-right: auto;
   font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
-  margin-top: 10vh;
+  margin-top: 5vh;
 }
 
 .mainSmall {
@@ -77,12 +77,17 @@
 
 
 .problem {
+  /* background-image: url(../images/sparrow/problemsBack.png); */
+  background-position:center top;
+  background-repeat:no-repeat;
+  background-size: 100vw;
+
   min-height: 60vh;
   margin-top: 0;
   margin-bottom: 0;
   width: 100vw;
   font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
-  background: #00bcd4;
+  /* background: #00bcd4; */
 }
 
 
