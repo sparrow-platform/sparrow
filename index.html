@@ -43,6 +43,7 @@
     <script>
       $(document).ready(function(){
         $('.sidenav').sidenav();
+        $('.tabs').tabs();
       });
     </script>
     
@@ -62,7 +63,7 @@
 
       <ul class="right hide-on-med-and-down">
           <li><a class="black-text" href="https://sparrow-platform.com">Home</a></li>
-          <li><a class="black-text" href="badges.html">Sparrow-Net</a></li>
+          <li><a class="black-text" href="sparrowNet.html">Sparrow-Net</a></li>
           <li><a class="black-text" href="collapsible.html">Sparrow-AI</a></li>
           <li><a class="black-text" href="collapsible.html">Eco-System</a></li>
       </ul>
@@ -72,7 +73,7 @@
 
   <ul class="sidenav" id="mobile-demo">
       <li ><a class="wave-effect black-text" href="https://sparrow-platform.com">Home</a></li>
-      <li><a class="wave-effect black-text" href="badges.html">Sparrow-Net</a></li>
+      <li><a class="wave-effect black-text" href="sparrowNet.html">Sparrow-Net</a></li>
       <li><a class="wave-effect black-text" href="collapsible.html">Sparrow-AI</a></li>
       <li><a class="wave-effect black-text" href="collapsible.html">Eco-System</a></li>
   </ul>
@@ -231,15 +232,16 @@
 <!-------------------------------Our Solution--------------------------------->
 
 
-<div class="white solution">
+<div class="white  solution">
 
     <h5 class="center hide-on-med-and-up   cyan-text text-darken-4" style="padding-top: 10vh;  padding-left: 10vw;  padding-right: 10vw;">  
-      Our solution - 3 component ecosystem for disaster victims preparedness, safety, and recovery
+      Our solution - 3 component ecosystem for disaster victims medical preparedness, safety, and recovery
     </h5>
 
     <h5 class="center flow-text hide-on-small-only cyan-text text-darken-4" style="padding-top: 15vh;  padding-left: 10vw;  padding-right: 10vw;">  
-        Our solution - 3 component ecosystem for disaster victims preparedness, safety, and recovery
+        Our solution - 3 component ecosystem for disaster victims medical preparedness, safety, and recovery
     </h5>
+    <br>
 
     <!-- <h6 class=" center blue-grey-text text-darken-4" style="padding-left: 10vw;  padding-right: 10vw;">
       <b class="flow-text cyan-text text-darken-2">S</b>ystem for <b class="flow-text cyan-text text-darken-2">P</b>revention and <b class="flow-text cyan-text text-darken-2">A</b>ugmented healthcare diagnostics,
@@ -248,76 +250,74 @@
       <b class="flow-text cyan-text text-darken-2">O</b>ffline <b class="flow-text cyan-text text-darken-2">W</b>ell-being
     </h6> -->
 
-    <p class="center blue-grey-text text-darken-4" style="padding-left: 10vw;  padding-right: 10vw;">
-      1. SparrowNet - Network abstraction spanning various hardware and software stacks to connect disaster victims with communty near them and accross the world<br>
-      2. SparrowAI - AI to aid victims and medical experts capture medical data, gain insights and make informed decisions<br>
-      3. Sparrow applications ecosystem - Applets connected to SparrowNet and SparrowAI to help disaster victims, responders, medical teams and the global disater response community createred to the 'Offline first' requirements 
-    </p>
+      
+    <div class="container">
+       
 
-    <div class="  valign-wrapper">
-        <div class="  center container section  ">
-          <div class="row  ">
+        <div class="row">
+            <div class="col s12">
+              <ul class="tabs ">
+                <li class="cyan-text  text-darken-4 tab col s4"><a class="active cyan-text text-darken-4" href="#sparrowNet">Sparrow-Net</a></li>
+                <li class="cyan-text text-darken-4 tab col s4"><a class="cyan-text text-darken-4" href="#sparrowAI">Sparrow-AI</a></li>
+                <li class="cyan-text text-darken-4 tab col s4"><a class="cyan-text text-darken-4" href="#sparrowEcosystem">Apps</a></li>
+              </ul>
+            </div>
 
-            <div class=" col  s12 m12 l4 ">
-              <div class="card hoverable problems-card">
-                  <div class="card-content activator">
-                      <i class="material-icons activator problem-activator">more_vert</i>
-                      <img class="problem-image activator" src="images/sparrow/doctor.png"  />
-                      <br><br>
-                      <p class="problem-text">access to</p>
-                      <h5 class="problem-text activator" >Medical expertise</h5>
+
+            <div id="sparrowNet" class="  col s12 l12 m12  ">
+              <div class="hide-on-small-only"> 
+                  <div class="row">
+                    <div class="col l6 m6">
+                        <img class=" solutionImageLarge center " src="images/sparrow/sparrowNet.png" />
                     </div>
-                  <div class="card-reveal">
-                      <i class=" card-title material-icons right">close</i>
-                      <span class="card-title grey-text text-darken-4">Access to Medical expertise</span>
-                      <p >Making medical expertise available to victims and medical workers on field for effective diagnostics and treatment.
-                      </p>
-                  </div>
+                    <div class="col l6 m6">
+                        <div class="solutionHeadingLarge">
+                          <h6 class="hide-on-med-and-down">A Network spanning various hardware and software stacks to connect disaster victims with communty near them and accross the world</h4>
+                          <h6 class="hide-on-large-only">Network abstraction spanning various hardware and software stacks to connect disaster victims with communty near them and accross the world</h4>
+                          <br>
+                          <a class="waves-effect waves-light blue darken-2 btn" href="sparrowNet.html">Learn more</a>
+                        </div>
+                    </div>
+                  </div> 
+              </div>
+              <div class="hide-on-med-and-up">
+                  <div class="row">
+                      <div class="col s12">
+                          <img class=" solutionImageSmall center " src="images/sparrow/sparrowNet.png" />
+                      </div>
+                      <div class="col s12">
+                          <div class="solutionHeadingSmall">
+                            <h5 class="hide-on-med-and-down">A Network spanning various hardware and software stacks to connect disaster victims with communty near them and accross the world</h4>
+                            <h6 class="hide-on-large-only">Network abstraction spanning various hardware and software stacks to connect disaster victims with communty near them and accross the world</h4>
+
+                            <a class="center waves-effect waves-light blue darken-2 btn" href="sparrowNet.html">Learn more</a>
+                          </div>
+                      </div>
+                    </div> 
               </div>
             </div>
 
-            
-            <div class="  col  s12 m12 l4  ">
-              <div class="card hoverable problems-card">
-                  <div class="card-content activator">
-                      <i class="material-icons activator problem-activator">more_vert</i>
-                      <img class="problem-image activator" src="images/sparrow/medicalRecords.png"  />
-                      <br><br>
-                      <p class="problem-text">availability of</p>
-                      <h5 class="problem-text activator" >Medical history</h5>
-                    </div>
-                  <div class="card-reveal">
-                      <i class="card-title material-icons right">close</i>
-                      <span class="card-title grey-text text-darken-4">Availability of Medical history</span>
-                      <p>Ensuring easy access to victim’s medical history and a clear structured understanding of distress causing symptoms.
-                      </p>
-                  </div>
-              </div>
+
+            <div id="sparrowAI" class="col s12 valign-wrapper">
+              
             </div>
 
-            <div class="  col  s12 m12 l4  ">
-              <div class="card hoverable problems-card">
-                  <div class="card-content activator">
-                      <i class="material-icons activator problem-activator">more_vert</i>
-                      <img class="problem-image activator" src="images/sparrow/communication.png"  />
-                      <br><br>
-                      <p class="problem-text">assurance of</p>
-                      <h5 class="problem-text activator" >Connectivity</h5>
-                    </div>
-                  <div class="card-reveal">
-                      <i class="card-title material-icons right">close</i>
-                      <span class="card-title grey-text text-darken-4">Assurance of Connectivity</span>
-                      <p>Ensuring ubiquitous access of communication for disaster victims in order to make correct help readily available.   
-                      </p>
-                      <p>Focus on the 'What' of communication instead of 'How' - Connecting numerous siloed global communities sepereated by bondaries of technology and platforms
-                      </p>
-                  </div>
-              </div>
+            <div id="sparrowEcosystem" class="col s12 valign-wrapper">
+              
             </div>
-
-          </div>
-        </div> 
+             
+          <!-- <p class="center blue-grey-text text-darken-4" style="padding-left: 10vw;  padding-right: 10vw;">
+              1. SparrowNet - Network abstraction spanning various hardware and software stacks to connect disaster victims with communty near them and accross the world<br>
+              2. SparrowAI - AI to aid victims and medical experts capture medical data, gain insights and make informed decisions<br>
+              3. Sparrow applications ecosystem - Applets connected to SparrowNet and SparrowAI to help disaster victims, responders, medical teams and the global disater response community createred to the 'Offline first' requirements 
+            </p> -->
     </div>
+    
+
+
+    
+    
+  </div>
 
 </div>
 
@@ -326,11 +326,11 @@
 
   
   <!-------------------------------Footer---------------------------->
-  <footer class="cyan page-footer">
+  <footer class=" cyan   page-footer">
       <div class="container">
         <div class="row">
           <div class="col l6 s12">
-            <h5 class="white-text">Open Soruce</h5>
+            <h5 class="white-text">Open Source</h5>
             <p class="white-text text-lighten-4">
               <!-- Sparrow platform is an open-source project<br> -->
               Contact us at sparrowplatform@gmail.com to contribute
@@ -341,14 +341,14 @@
             <h5 class="white-text">Links</h5>
             <ul>
               <li><a class="white-text text-lighten-3" href="#!">Home</a></li>
-              <li><a class="white-text text-lighten-3" href="#!">Sparrow-Net</a></li>
+              <li><a class="white-text text-lighten-3" href="sparrowNet.html">Sparrow-Net</a></li>
               <li><a class="white-text text-lighten-3" href="#!">Sparrow-AI</a></li>
               <li><a class="white-text text-lighten-3" href="#!">Eco-System</a></li>
             </ul>
           </div>
         </div>
       </div>
-      <div class="footer-copyright">
+      <div class="black-text footer-copyright">
         <div class="container">
         © 2019 Sparrow Platform
         </div>

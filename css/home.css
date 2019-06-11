@@ -15,9 +15,9 @@
   font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
 }
 
+
 .solution {
-  min-height: 80vh;
-  width: 100vw;
+  padding-bottom: 7vh;
   font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
   /* background-image: url(../images/sparrow/backSolution.png); */
   background-size: 100vw;
@@ -27,6 +27,39 @@
   background-repeat:no-repeat;
 }
 
+.solutionImageLarge{
+  margin-top: 5vh;
+  width:80%;
+  height: auto; 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.solutionImageSmall{
+  margin-top: 10vh;
+  width:80%;
+  height: auto; 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.solutionHeadingLarge{
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+  margin-top: 20vh;
+}
+
+.solutionHeadingSmall{
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+  margin-top: 10vh;
+}
 
 .mainSmall {
   
@@ -109,3 +142,27 @@ body{
 
 
 
+.tabs .tab a{
+  color:#006064 ;
+} /*Black color to the text*/
+
+.tabs .tab a:hover {
+  background-color:#00bbd407;
+  color:#006064 ;
+} /*Text color on hover*/
+
+.tabs .tab a.active {
+  background-color:#00bbd407 ;
+  color:#006064 ;
+} /*Background and text color when a tab is active*/
+
+.tabs .indicator {
+  background-color:#006064 ;
+} /*Color of underline*/
+
+.tabs .tab a:focus.active {
+  color:#006064;
+  /*Custom Text Color While Active*/
+  background-color:#00bbd407;
+  /*Custom Background Color While Active*/
+}
