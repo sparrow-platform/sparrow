@@ -30,6 +30,7 @@
 .solutionImageLarge{
   margin-top: 5vh;
   width:80%;
+  padding: 10%;
   height: auto; 
   display: block;
   margin-left: auto;
@@ -38,10 +39,11 @@
 }
 
 .solutionImageSmall{
-  margin-top: 8vh;
+  margin-top: 4vh;
   width:100%;
   height: auto; 
   display: block;
+  padding: 15%;
   margin-left: auto;
   margin-right: auto;
 
@@ -58,7 +60,7 @@
   margin-left: auto;
   margin-right: auto;
   font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
-  margin-top: 5vh;
+  margin-top: 1vh;
 }
 
 .mainSmall {
