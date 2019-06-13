@@ -192,3 +192,8 @@ body{
   background-color:#00bbd407;
   /*Custom Background Color While Active*/
 }
+
+
+.sparrorNetMain{
+  min-height: 80vh;
+}
