@@ -197,3 +197,10 @@ body{
 .sparrorNetMain{
   min-height: 80vh;
 }
+
+
+.connectivity-cards{
+  padding:25px;
+  height: 280px;
+  
+}
