@@ -43,8 +43,53 @@
     <script>
       $(document).ready(function(){
         $('.sidenav').sidenav();
-        $('.modal').modal();
+
+        $("#sparrowNet").hide();
       });
+    </script>
+
+
+    <script>
+    function lockScroll(){
+      $html = $('html'); 
+      $body = $('body'); 
+      var initWidth = $body.outerWidth();
+      var initHeight = $body.outerHeight();
+
+      var scrollPosition = [
+          self.pageXOffset || document.documentElement.scrollLeft || document.body.scrollLeft,
+          self.pageYOffset || document.documentElement.scrollTop  || document.body.scrollTop
+      ];
+      $html.data('scroll-position', scrollPosition);
+      $html.data('previous-overflow', $html.css('overflow'));
+      $html.css('overflow', 'hidden');
+      window.scrollTo(scrollPosition[0], scrollPosition[1]);   
+
+      var marginR = $body.outerWidth()-initWidth;
+      var marginB = $body.outerHeight()-initHeight; 
+      $body.css({'margin-right': marginR,'margin-bottom': marginB});
+  } 
+
+  function unlockScroll(){
+      $html = $('html');
+      $body = $('body');
+      $html.css('overflow', $html.data('previous-overflow'));
+      var scrollPosition = $html.data('scroll-position');
+      window.scrollTo(scrollPosition[0], scrollPosition[1]);    
+
+      $body.css({'margin-right': 0, 'margin-bottom': 0});
+  }
+
+    function showSparrowNet() {
+        $("#sparrowNet").show();
+        lockScroll();
+        
+    }
+
+    function hideSparrowNet() {
+        $("#sparrowNet").hide();
+        unlockScroll();
+    }
     </script>
     
     <!-- Material Icons -->
@@ -56,6 +101,31 @@
 
   
 
+
+
+
+
+
+
+<!-- <div id="sparrowNet" class="hiddenDivision">
+  <i class="material-icons right closeDescriptor" onClick="hideSparrowNet()">close</i>
+</div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!-------------------------------------------Nav Bar--------------------------------->
 <nav class="white">
     <div class="nav-wrapper" style="margin-right:10px;">
@@ -63,9 +133,9 @@
 
       <ul class="right hide-on-med-and-down">
           <li><a class="black-text" href="https://sparrow-platform.com">Home</a></li>
-          <li><a class="black-text" href="Net.html">Sparrow Net</a></li>
-          <li><a class="black-text" href="AI.html">Sparrow AI</a></li>
-          <li><a class="black-text" href="Apps.html">Apps Ecosystem</a></li>
+          <li><a class="black-text" href="Net.html">Sparrow-Net</a></li>
+          <li><a class="black-text" href="AI.html">Sparrow-AI</a></li>
+          <li><a class="black-text" href="Apps.html">Eco-System</a></li>
       </ul>
     </div>
     
@@ -73,13 +143,15 @@
 
   <ul class="sidenav" id="mobile-demo">
       <li ><a class="wave-effect black-text" href="https://sparrow-platform.com">Home</a></li>
-      <li><a class="wave-effect black-text" href="Net.html">Sparrow Net</a></li>
-      <li><a class="wave-effect black-text" href="AI.html">Sparrow AI</a></li>
-      <li><a class="wave-effect black-text" href="Apps.html">Apps Ecosystem</a></li>
+      <li><a class="wave-effect black-text" href="Net.html">Sparrow-Net</a></li>
+      <li><a class="wave-effect black-text" href="AI.html">Sparrow-AI</a></li>
+      <li><a class="wave-effect black-text" href="Apps.html">Eco-System</a></li>
   </ul>
 
   
 <!-------------------------------------------Nav Bar--------------------------------->  
+
+
 
 
 
@@ -153,14 +225,6 @@
       </div>
 
 <!-------------------------------Main--------------------------------->
-
-
-
-
-
-
-
-
 
 
 
@@ -270,33 +334,24 @@
 
 
 <div class=" grey lighten-4 solution">
-<div class="container" style="padding-top: 8vh; padding-bottom: 8vh;">
-  <h4 class="center cyan-text text-darken-4" >Our Solution</h4>
+<div class="container">
+  <h4 class="center cyan-text text-darken-4" style="padding-top: 8vh;">Our Solution</h4>
 
-  <h5 class="hide-on-med-and-up center cyan-text text-darken-4" style="padding-top: 1vh; margin-bottom: 2vh; ">  
+  <h5 class="hide-on-med-and-up cyan-text text-darken-4" style="padding-top: 1vh; margin-bottom: 2vh; padding-left: 10vw;  padding-right: 10vw;">  
    3 component ecosystem for disaster victims medical preparedness, safety, and recovery.
   </h5>
 
 
-  <h5 class="flow-text hide-on-small-only center cyan-text text-darken-4" style="padding-top: 0vh; margin-bottom: 2vh;  ">  
+  <h5 class="flow-text hide-on-small-only cyan-text text-darken-4" style="padding-top: 0vh; margin-bottom: 2vh; padding-left: 10vw;  padding-right: 10vw;">  
       3 component ecosystem for disaster victims medical preparedness, safety, and recovery.
   </h5>
 
-  <h6 class=" cyan-text center text-darken-4" style="padding-left: 3vw;  padding-right: 3vw;">
+  <h6 class=" cyan-text text-darken-4" style="padding-left: 10vw;  padding-right: 10vw;">
       Sparrow unifies and makes every single person, system, app, and information accessible to the disaster-affected population through any medium of communication available.
   </h6>
 
 </div>
 </div>
-
-
-<!-------------------------------Our Solution--------------------------------->
-
-
-
-
-
-
 
 
 
@@ -313,32 +368,31 @@
 
     <br>
     <div class="  ">
-    <div class="solutionSection white container valign-wrapper   ">
+    <div class="solutionSection white container valign-wrapper ">
         <div class="row valign-wrapper">
             <div id="sparrowNet" class="valign-wrapper col s12 l12 m12  ">
               <div class="hide-on-med-and-down valign-wrapper"> 
                   <div class="row valign-wrapper">
 
-                    <div class="valign-wrapper col l7">
+                    <div class="valign-wrapper col l6">
                         <img class="valign-wrapper solutionImageLarge center " src="images/sparrow/sparrowNetMain.png" />
                     </div>
                     
-                    <div class="valign-wrapper col l5  ">
+                    <div class="valign-wrapper col l6  ">
                         <div class="  solutionHeadingLarge">
                           
-                            <h5 class=" flow-text">
-                              <h4 class="cyan-text text-darken-4">Sparrow Net</h4>
-
+                            <h6 class=" ">
+                              <h5 class="cyan-text text-darken-4">Sparrow Net</h5>
                                   "Bridge offline mesh networks, social media, messaging platforms, traditional SMS/voice networks to achieve ubiquitous communication accessible to those affected by disasters"
-                                  <br><br>
-                                  Network abstraction spanning various hardware and software stacks to connect disaster victims with community/responders/medical-experts near them and accross the world 
+                                  <br><br>Network abstraction spanning various hardware and software stacks to connect disaster victims with community/responders/medical-experts near them and accross the world 
                                   
-                              
+                                </h4>
     
                               <br><br>
                               <a class="waves-effect waves-light blue darken-2 btn" href="Net.html">Learn more</a><br>
+                              <!-- <a class="waves-effect waves-light blue darken-2 btn"  onClick ="showSparrowNet()" >Learn more</a><br> -->
 
-                              </h5>
+                              </h6>
                           
                         </div>
                     </div>
@@ -361,6 +415,7 @@
                                   
                             <br><br>
                             <a class="center waves-effect waves-light blue darken-2 btn" href="Net.html">Learn more</a>
+
 
                           </h6>
                           </div>
@@ -392,11 +447,11 @@
               <div class="hide-on-med-and-down valign-wrapper"> 
                 <div class="row valign-wrapper">
                   
-                  <div class="col l5 valign-wrapper">
+                  <div class="col l6 m6 valign-wrapper">
                       <div class="solutionHeadingLarge valign-wrapper">
                         <div>
                             <h6 class=" black-text text-darken-4">
-                            <h4 class="cyan-text text-darken-4">Sparrow AI</h4>
+                            <h5 class="cyan-text text-darken-4">Sparrow AI</h5>
                             
                               "AI to help disater affected population, responders and medical experts"<br><br>
                               Capture structured medical data, Diagnose symptoms, Get recommendations, Gain insights, Make informed decisions, Communicate your feelings for mental well-being
@@ -412,7 +467,7 @@
                       </div>
 
                   </div>
-                  <div class="col l7 valign-wrapper">
+                  <div class="col l6 m6 valign-wrapper">
                       <img class="valign-wrapper solutionImageLarge center " src="images/sparrow/sparrowAIPictorial.png" />
                   </div>
 
@@ -463,23 +518,25 @@
               <div class="hide-on-med-and-down valign-wrapper"> 
                 <div class="row valign-wrapper">
                   
-                  <div class="col valign-wrapper l7">
+                  <div class="col valign-wrapper l6 m6">
                       <img class="valign-wrapper solutionImageLarge center " src="images/sparrow/sparrowApplets.png" />
                   </div>
 
-                  <div class="col l5 valign-wrapper">
+                  <div class="col l6 m6 valign-wrapper">
                       <div class="valign-wrapper solutionHeadingLarge">
                         <div>
                           
-                          <h6 class="black-text text-darken-4">
+                          <h6 class=" black-text text-darken-4">
 
-                            <h4 class="cyan-text text-darken-4">Applets ecosystem</h4>
+                            <h5 class="cyan-text text-darken-4">Applets ecosystem</h5>
                               
                             "Applications ecosystem for disaster preparation, management, response and recovery"<br><br>
                             A platform for hosting applets accessible through Sparrow Net. 
                             Bring all existing disaster recovery apps to finger tips of disaster victims and first responders by making them accessible through Sparrow Net chat interfaces.
                             <br>
                             <br>
+
+
                             
                             <a class="waves-effect waves-light blue darken-2 btn" href="Apps.html">Learn more</a>
 
@@ -538,51 +595,37 @@
 
 
 
-        <!-------------------------------Footer---------------------------->
-        <footer class="z-depth-2  cyan   page-footer">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col l6 s12">
-                        <div class=" "> 
-                            <h5 class="white-text">Open Source</h5>
-                            <p class="white-text text-lighten-4">
-                            <!-- Sparrow platform is an open-source project<br> -->
-                            We welcome developers and medical experts to join us in creating Sparrow Platform</br><br>
-                            Contact us at sparrowplatform@gmail.com to contribute
-                            </p>
-                            <!-- <h5 class="white-text">Our Team</h5> -->
-                        </div>
-                    </div>
-
-
-                    
-                    <div class="col l4 offset-l2 s12">
-                        <div class=" "> 
-                            <h5 class="white-text">Links</h5>
-                            <ul>
-                                <li><a class="white-text text-lighten-3" href="https://sparrow-platform.com">Home</a></li>
-                                <li><a class="white-text text-lighten-3" href="Net.html">Sparrow Net</a></li>
-                                <li><a class="white-text text-lighten-3" href="AI">Sparrow AI</a></li>
-                                <li><a class="white-text text-lighten-3" href="Apps.html">Apps Ecosystem</a></li>
-                            
-                            </ul>
-                        </div>
-                    </div>
-
-                    
-                
-                </div>
-            </div>
-
-            <div class="black-text footer-copyright">
-                <div class="white-text container">
-                © 2019 Sparrow Platform
-                </div>
-            </div>
-
-            </footer>
-            <!-------------------------------Footer---------------------------->
+  
+  <!-------------------------------Footer---------------------------->
+  <footer class="z-depth-2  cyan   page-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">Open Source</h5>
+            <p class="white-text text-lighten-4">
+              <!-- Sparrow platform is an open-source project<br> -->
+              Contact us at sparrowplatform@gmail.com to contribute
+            </p>
+            <!-- <h5 class="white-text">Our Team</h5> -->
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Links</h5>
+            <ul>
+              <li><a class="white-text text-lighten-3" href="https://sparrow-platform.com">Home</a></li>
+              <li><a class="white-text text-lighten-3" href="Net.html">Sparrow-Net</a></li>
+              <li><a class="white-text text-lighten-3" href="AI">Sparrow-AI</a></li>
+              <li><a class="white-text text-lighten-3" href="Apps.html">Eco-System</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="black-text footer-copyright">
+        <div class="container">
+        © 2019 Sparrow Platform
+        </div>
+      </div>
+    </footer>
+    <!-------------------------------Footer---------------------------->
 
 
 </body>
