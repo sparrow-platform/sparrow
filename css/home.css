@@ -12,13 +12,13 @@
 
 .sparrow-font{
 
-  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+  /* font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif; */
 }
 
 
 .solution {
   padding-bottom: 7vh;
-  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+  /* font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif; */
   background-position:center top;
   background-repeat:no-repeat;
   background-size: 100vw;
@@ -48,7 +48,7 @@ min-height: 100vh;
 .solutionHeadingLarge{
   margin-left: auto;
   margin-right: auto;
-  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+  /* font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif; */
   margin-top: 0vh;
 }
 
@@ -83,7 +83,7 @@ min-height: 100vh;
 .solutionHeadingSmall{
   margin-left: auto;
   margin-right: auto;
-  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+  /* font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif; */
 }
 
 .mainSmall {
@@ -108,7 +108,7 @@ min-height: 100vh;
   background-size: 100vw;
   min-height: 60vh;
   width: 100vw;
-  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+  /* font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif; */
   background: #00bcd4;
 }
 
@@ -122,7 +122,7 @@ min-height: 100vh;
 .problems-card{
   height:35vh;
   min-height: 200px;
-  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif; 
+  /* font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;  */
   padding-top: 1vh;
 }
 
@@ -136,7 +136,7 @@ min-height: 100vh;
 
 
 .problem-text{
-  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+  /* font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif; */
   line-height: 10%;
 }
 
