@@ -2,7 +2,7 @@
 
 This is the build repository for sparrow-platform.com.
 <br>
-For detailed instructions on Sparrow Plaform, visit www.sparrow-platform.com
+For detailed information on Sparrow Plaform, visit www.sparrow-platform.com
 
 # Introduction
 Sparrow Platform is a truly ubiquitous network to connect disaster victims with medical experts, information and communities; agnostic of device, location, connectivity, application/systems in use. 
