@@ -12,7 +12,7 @@ The ubiquitous nature of Sparrow Platform is owing to Sparrow net.
 
 # Sparrow Net
 <p align="center">
-<img height=500  src="https://raw.githubusercontent.com/sparrow-platform/sparrow/master/images/sparrow/MiddlewareSummary.png"/>
+<img max-height=500  src="https://raw.githubusercontent.com/sparrow-platform/sparrow/master/images/sparrow/MiddlewareSummary.png"/>
 </p>
 
 The sparrow Net involves the ‘middleware’ which connects users to 
@@ -29,7 +29,7 @@ It is responsible for the intelligent routing of user queries to correct apps/ex
 
 # Expert Community via SparowNet
 <p align="center">
-<img height=500  src="https://sparrow-platform.com/images/sparrow/sparrowInterPlatformRouting.png"/>
+<img max-height=500  src="https://sparrow-platform.com/images/sparrow/sparrowInterPlatformRouting.png"/>
 </p>
 As shown in the image, Sparrow is the link between disaster victims and medical experts around the world. 
 The key idea is to allow users access Sparrow Platform features through anywhere and any application. 
@@ -39,7 +39,7 @@ Sparrow aims to bridge the gap that exists between them due to different geograp
 
 # Sparrow AI
 <p align="center">
-<img height=500  src="https://sparrow-platform.com/images/sparrow/MedicalInfoEngine.png"/>
+<img max-height=500  src="https://sparrow-platform.com/images/sparrow/MedicalInfoEngine.png"/>
 </p>
 Sparrow Platform ensures that disaster victims always have access to help. 
 Sparrow AI is a AI trained over 30 years of medical data. 
@@ -49,7 +49,7 @@ SparrowAI also aids during conversations between experts and victims by helping 
 
 # Sparrow Apps ecosystem
 <p align="center">
-<img height=500  src="https://sparrow-platform.com/images/sparrow/SparrowAppletMain.png"/>
+<img max-height=500  src="https://sparrow-platform.com/images/sparrow/SparrowAppletMain.png"/>
 </p>
 Just as sparrow Net enables users to reach out to any experts around the world, the idea is to enable users to access information from any apps through ‘Sparrow Applets’. We have built Sparrow Middleware in a way that developers can create new Sparrow Applets and make information available to users. 
 During disasters, information is scattered in 100s of dashboards, chat application ‘groups’. There is no way to access all of this information. The applet ecosystem bridges this gap. Developers can create applets to make sure data from all platforms ia available everywhere. 
@@ -59,7 +59,7 @@ During disasters, information is scattered in 100s of dashboards, chat applicati
 # Architecture
 Sparrow Platform spans multiple hardware and software stacks. 
 <p align="center">
-<img height=500  src="https://raw.githubusercontent.com/sparrow-platform/sparrow/master/images/sparrow/SparrowOverallArchitecrture.png"/>
+<img max-height=500  src="https://raw.githubusercontent.com/sparrow-platform/sparrow/master/images/sparrow/SparrowOverallArchitecrture.png"/>
 </p>
 
 
