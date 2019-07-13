@@ -42,6 +42,8 @@
             $(document).ready(function(){
                 $('.sidenav').sidenav();
                 $('.collapsible').collapsible();
+                
+                $('.tooltipped').tooltip(); 
             });
         </script>
 
@@ -54,31 +56,35 @@
     <body>
 
 
+        
+        
+
 <!-------------------------------------------Nav Bar--------------------------------->
 <nav class="white">
-        <div class="nav-wrapper" style="margin-right:10px;">
-          <a href="#" data-target="mobile-demo" class="button-collapse sidenav-trigger" ><i class="blue-grey-text text-darken-4 material-icons">menu</i></a>
-    
-          <ul class="right hide-on-med-and-down">
-              <li><a class="black-text" href="https://sparrow-platform.com">Home</a></li>
-              <li><a class="black-text" href="Net.html">Sparrow Net</a></li>
-              <li><a class="black-text" href="AI.html">Sparrow AI</a></li>
-              <li><a class="black-text" href="Apps.html">Apps Ecosystem</a></li>
-          </ul>
-        </div>
-        
-      </nav>
-    
-      <ul class="sidenav" id="mobile-demo">
-          <li ><a class="wave-effect black-text" href="https://sparrow-platform.com">Home</a></li>
-          <li><a class="wave-effect black-text" href="Net.html">Sparrow Net</a></li>
-          <li><a class="wave-effect black-text" href="AI.html">Sparrow AI</a></li>
-          <li><a class="wave-effect black-text" href="Apps.html">Apps Ecosystem</a></li>
-      </ul>
-    
-      
-    <!-------------------------------------------Nav Bar--------------------------------->         
+    <div class="nav-wrapper" style="margin-right:10px;">
+      <a href="#" data-target="mobile-demo" class="button-collapse sidenav-trigger" ><i class="blue-grey-text text-darken-4 material-icons">menu</i></a>
 
+      <ul class="right hide-on-med-and-down">
+          <li><a class="black-text" href="https://sparrow-platform.com">Home</a></li>
+          <li><a class="black-text" href="Net.html">Sparrow Net</a></li>
+          <li><a class="black-text" href="AI.html">Sparrow AI</a></li>
+          <li><a class="black-text" href="Apps.html">Apps Ecosystem</a></li>
+          <li><a class="black-text tooltipped" data-position="bottom" data-tooltip="Coming Soon">Developers portal</a></li>
+      </ul>
+    </div>
+    
+  </nav>
+
+  <ul class="sidenav" id="mobile-demo">
+      <li ><a class="wave-effect black-text" href="https://sparrow-platform.com">Home</a></li>
+      <li><a class="wave-effect black-text" href="Net.html">Sparrow Net</a></li>
+      <li><a class="wave-effect black-text" href="AI.html">Sparrow AI</a></li>
+      <li><a class="wave-effect black-text" href="Apps.html">Apps Ecosystem</a></li>
+      <li><a class="black-text tooltipped" data-position="bottom" data-tooltip="Coming Soon" >Developers portal</a></li>
+  </ul>
+
+  
+<!-------------------------------------------Nav Bar--------------------------------->  
 
 
 
@@ -738,7 +744,8 @@
                                     <li><a class="white-text text-lighten-3" href="Net.html">Sparrow Net</a></li>
                                     <li><a class="white-text text-lighten-3" href="AI">Sparrow AI</a></li>
                                     <li><a class="white-text text-lighten-3" href="Apps.html">Apps Ecosystem</a></li>
-                                
+                                    <li><a class="white-text text-lighten-3 tooltipped" data-position="bottom" data-tooltip="Coming Soon">Developers portal</a></li>
+
                                 </ul>
                             </div>
                         </div>
