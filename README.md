@@ -109,3 +109,22 @@ SPARROW CBT:<br>
 We implemented Cognitive Behavioural therapy in Sparrow AI through Watson Assistant.
 
 
+
+# IBM Cloud at heart
+Sparrow Platform uses IBM cloud. It uses IBM cloud/Watson for it's core functionalities. 
+<br>
+IBM features used by Sparrow platform - 
+```
+IBM Cloud foundry
+IBM Cloud functions
+IBM Watson Assistant
+IBM Cloudant DB
+IBM Watson NLP (Tone Analyzer)
+```
+
+We plan to migrate most of our other services to IBM Cloud 
+```
+MQTT server to IBM IoT MQTT
+Sparrow AI API (Currently on GCP Kubernetes) to IBM Kubernetes service
+Sparrow Android App medical records cloud backup (Currently on Google Firebase) to IBM Kubernetes/VPC Infrastructure
+```
