@@ -3,6 +3,8 @@
 This is the build repository for sparrow-platform.com.
 <br>
 For detailed information on Sparrow Plaform, visit www.sparrow-platform.com
+<br><br>
+Check Sparrow Platform Github page (Contains all repos for Sparrow Platform) - https://github.com/sparrow-platform
 
 # Introduction
 Sparrow Platform is a truly ubiquitous network to connect disaster victims with medical experts, information and communities; agnostic of device, location, connectivity, application/systems in use. 
