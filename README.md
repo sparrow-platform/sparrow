@@ -1,4 +1,11 @@
-# Summary
+This is the build repository for sparrow-platform.com.
+<br>
+For detailed information on Sparrow Plaform, visit www.sparrow-platform.com
+<br>
+Check Sparrow Platform Github page (Contains all repos for Sparrow Platform) - https://github.com/sparrow-platform
+
+
+# Sparrow Platform Summary
 Medical and mental well-being during and after disasters is a two-part problem –<br>
 1.	Making expertise and information or updates universally accessible to those in need<br>
 2.	Enabling experts and responders from around the world reach directly to those in need<br>
@@ -21,15 +28,8 @@ Sparrow is the one-stop enabler of medical and psychological well-being during a
 
 
 # Sparrow Platform components
-This is the build repository for sparrow-platform.com.
-<br>
-For detailed information on Sparrow Plaform, visit www.sparrow-platform.com
-<br><br>
-Check Sparrow Platform Github page (Contains all repos for Sparrow Platform) - https://github.com/sparrow-platform
 
-
-
-# Sparrow Net
+## Sparrow Net
 
 
 The sparrow Net involves the ‘middleware’ which connects users to 
