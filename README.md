@@ -1,8 +1,17 @@
+
 This is the build repository for sparrow-platform.com, and the README summarizes Sparrow Platform
 <br>
 For detailed information on Sparrow Plaform, visit www.sparrow-platform.com
 <br>
-Check Sparrow Platform Github page (Contains all repos for Sparrow Platform) - https://github.com/sparrow-platform
+Find other Sparrow Platform repos at - https://github.com/sparrow-platform
+
+
+<p align="center">
+<img height=200  src="https://raw.githubusercontent.com/sparrow-platform/design/master/Video/thumbnailSparrow.png"/>
+</p>
+
+
+
 
 
 # Sparrow Platform Summary
@@ -36,6 +45,7 @@ For users, Sparrow is extremely easy to use conversational AI accessible from an
 
 - Disaster recovery organization and logistics is made super easy thanks to Sparrow. Sparrow is primarily a communication platform that connects and combines all other communication platforms. Use existing apps like Whatsapp to start recovery efforts and reach out to every-one in this world, even if others don't use Whatsapp. This removes the confusion and boundaries that hinder quick disaster response/recovery. Scope and potential of Sparrow platform is endless – track people, send updates, reach out to family etc. without worrying about the availability of 'correct' hardware, connectivity, software, etc.
 
+<br><br><br>
 
 # Sparrow Platform components
 
@@ -77,6 +87,7 @@ During disasters, information is scattered in 100s of dashboards, chat applicati
 <br>
 “No disaster victim should suffer becuase he/she is not on a Whatsapp group”
 
+<br><br><br>
 # Architecture and implementation
 Sparrow Platform spans multiple hardware and software stacks. 
 <p align="center">
@@ -85,7 +96,7 @@ Sparrow Platform spans multiple hardware and software stacks.
 
 
 
-## Capture messages from users:
+## Sparrow interfaces
 Chat Apps:<br>
 Users can use any chat app to send queries to Sparrow. Sparrow Middleware is the cloud engine to unify all such apps. (Check more info at - https://github.com/sparrow-platform/community-connect-middleware)
 <br><br>
@@ -100,7 +111,7 @@ Sparrow App is a part of Sparrow Mesh, but it also is a direct connection to Spa
 
 
 
-## Routing message to middleware:
+## Routing message to middleware
 MQTT Server:<br>
 Messages from custom internet connected interfaces can reach Sparrow via our MQTT broker. 
 ```
@@ -113,12 +124,12 @@ Twilio/Unification engine:<br>
 We use Twilio chatbot engine for capturing messages from chat applications and forwarding it to Sparrow Middleware. (Check more info at - https://github.com/sparrow-platform/community-connect-middleware)
 
 
-## Middleware:
+## Middleware
 Sparrow Middleware handles routing messages received from users to correct apps / medical experts. Its the 'Many to Many' routing engine for various chat apps, sparrow applets, social media platforms, networks, etc. (More details on middleware repo - https://github.com/sparrow-platform/community-connect-middleware)
 
 
 
-## Sparrow AI:
+## Sparrow AI
 Disease Diagnostic engine:<br>
 Disease diagnostics engine is API that Sparrow core conversation service talks to in order to provide rich medical data and information. 
 More details on disease diagnostic engine repo - 
@@ -128,8 +139,8 @@ SPARROW CBT:<br>
 We implemented Cognitive Behavioural therapy in Sparrow AI through Watson Assistant. (Check the watson assistant repository for more details - https://github.com/sparrow-platform/watson-cloud-functions)
 
 
-
-## IBM Cloud at heart
+<br><br><br>
+# IBM Cloud at heart
 Sparrow Platform uses IBM cloud. It uses IBM cloud/Watson for it's core functionalities. 
 <br>
 IBM features used by Sparrow platform - 
@@ -147,3 +158,17 @@ MQTT server to IBM IoT MQTT
 Sparrow AI API (Currently on GCP Kubernetes) to IBM Kubernetes service
 Sparrow Android App medical records cloud backup (Currently on Google Firebase) to IBM Kubernetes/VPC Infrastructure
 ```
+
+
+<br><br><br>
+# Opensource software
+Sparrow Platform is "Built for community, by the community" (Apache 2.0 license). We invite Developers and medical experts to improve Sparrow Platform.<br>
+
+## How can developers contribute?
+- Bring existing applications to Sparrow by building Sparrow Applets
+- Help us improve Sparrow Platform by helping us fix bugs and add features 
+
+## How can medical experts contribute?
+- Help us improve Sparrow AI content
+- Improve Sparrow CBT 
+- Onboard Sparrow to help disaster victims when they need help 
