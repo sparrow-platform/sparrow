@@ -1,4 +1,4 @@
-This is the build repository for sparrow-platform.com.
+This is the build repository for sparrow-platform.com, and the README summarizes Sparrow Platform
 <br>
 For detailed information on Sparrow Plaform, visit www.sparrow-platform.com
 <br>
