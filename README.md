@@ -166,7 +166,8 @@ Sparrow Android App medical records cloud backup (Currently on Google Firebase) 
 
 <br><br><br>
 # Opensource software
-Sparrow Platform is "Built for community, by the community" (Apache 2.0 license). We invite Developers and medical experts to improve Sparrow Platform.<br>
+Sparrow Platform is "Built for community, by the community" (Apache 2.0 license). <br>
+We invite Developers and medical experts to improve Sparrow Platform.<br>
 
 ## How can developers contribute?
 - Bring existing applications to Sparrow by building Sparrow Applets
@@ -178,6 +179,7 @@ Sparrow Platform is "Built for community, by the community" (Apache 2.0 license)
 - Onboard Sparrow to help disaster victims when they need help 
 
 
+<br><br><br>
 
 # Sparrow Platform Roadmap
 <p align="center">
