@@ -7,7 +7,7 @@ Find other Sparrow Platform repos at - https://github.com/sparrow-platform
 
 
 <p align="center">
-<img height=200  src="https://raw.githubusercontent.com/sparrow-platform/design/master/Video/thumbnailSparrow.png"/>
+<img max-height=100 height=200  src="https://raw.githubusercontent.com/sparrow-platform/design/master/Video/thumbnailSparrow.png"/>
 </p>
 
 
@@ -172,3 +172,12 @@ Sparrow Platform is "Built for community, by the community" (Apache 2.0 license)
 - Help us improve Sparrow AI content
 - Improve Sparrow CBT 
 - Onboard Sparrow to help disaster victims when they need help 
+
+
+
+# Sparrow Platform Roadmap
+<p align="center">
+<img max-height=800 height=800  src="https://raw.githubusercontent.com/sparrow-platform/design/master/Timeline/TimeLineImage.png"/>
+</p>
+
+
