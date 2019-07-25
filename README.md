@@ -22,28 +22,29 @@ Medical and psychological well-being during and after disasters is a two-part co
 
 
 ## The Problem:
--  Making medical help available to disaster victims is a 'High demand, low supply' problem. There aren't many experts (doctors) on the ground who can deliver correct medical advice. Telemedicine is a solution but often a bottleneck in disaster management. A few experts can't address issues that hundreds of disaster victims are facing. On the other hand, many doctors around the world want to help disaster victims but have no possible way to reach them.
+-  Making medical help available to disaster victims is a 'High demand, low supply' problem. There aren't many experts (doctors) on the ground who can deliver correct medical advice. Telemedicine is a solution but often a bottleneck in disaster management. On the other hand, many doctors around the world want to help disaster victims but have no possible way to reach them.
 - Psychological well-being requires on-demand access to expertise and timely follow-ups. Telemedicine or traditional medical infrastructure is not equipped to deliver it during/after disasters.
 - Disaster victims need access to all information which is siloed in various applications or communication platforms. Creating another communications platform or another information database will add to the list of such siloed applications.
-- All systems for disaster recovery need to work in 'Offline' conditions
+- All systems for disaster recovery need to work in 'Offline' conditions as the traditional network is often unavailable during disasters.
+
 
 ## Sparrow Platform is the solution:
-Sparrow is an open-source AI-enabled communication platform that serves as a one-stop enabler of medical and psychological well-being during and after disasters.
+Sparrow is an open-source AI-enabled platform that serves as a one-stop enabler of medical and psychological well-being during and after disasters.
 
-For users, Sparrow is extremely easy to use conversational AI accessible from any existing Chat app. Ask questions, and Sparrow ensures you get what you need. Sparrow achieves this by being user’s single point of connection with all applications, communication platforms, doctors/experts, etc. 
+For users, Sparrow is an extremely easy-to-use conversational AI, accessible from any existing Chat app. Ask questions, and Sparrow ensures you get what you need. Sparrow achieves this by being user’s single point of connection with all applications, communication platforms, doctors/experts, etc. 
 <br>
 
 - Sparrow is 'Uber for medical/psychological help' – Medical experts and first responders from around the world can onboard Sparrow. When disaster victims reach out to Sparrow for help, Sparrow connects them to one of the available experts based on user needs.
 
-- Sparrow is ubiquitous - Access Sparrow from ANY existing communication/chat application. Ask for help, and you will be connected with an expert doctor. You or the doctor can be anywhere in the world or on any communication platform.
+- Sparrow is ubiquitous - Access Sparrow from any existing communication/chat application. You or the doctor Sparrow connects you with can be anywhere in the world or on any communication platform. We achieve this by using the chatbot interfaces to send/receive messages across platforms.
 
-- Sparrow is accessible offline- Sparrow works even without internet thanks to it's integration with Project Owl’s cluster-duck mesh network, and a smartphone-based ‘offline mesh network' called Sparrow Mesh. Sparrow Mesh is a unique ubiquitous network that uses Wifi, Bluetooth and sound waves to send or receive data to and from anywhere in the world. Every smartphone is like a network tower for Sparrow Mesh.
+- Sparrow is accessible offline - Sparrow works even without internet by leveraging IoT, Edge computing and Mesh networks. This is achieved by integration with Project Owl’s cluster-duck mesh network(http://project-owl.com), and a smartphone-based ‘offline mesh network' called Sparrow Mesh. Sparrow Mesh is a unique ubiquitous network that uses Wifi, Bluetooth and sound waves to send or receive data to and from anywhere in the world. Every smartphone is like a network tower for Sparrow Mesh.
 
 - Sparrow is intelligent - When experts are unavailable, Sparrow AI (trained on decades worth rich medical data) can deliver medical diagnostics, necessary medical information. It also can provide 'Cognitive behavioral therapy' for ensuring psychological well-being.
 
 - Sparrow is like Alexa on steroids - Developers can create 'Sparrow Applets' to integrate any existing application with Sparrow. As Sparrow is not tied to any hardware or app, all the sparrow applets are accessible on any device, from existing apps.
 
-- Disaster recovery organization and logistics is made super easy thanks to Sparrow. Sparrow is primarily a communication platform that connects and combines all other communication platforms. Use existing apps like Whatsapp to start recovery efforts and reach out to every-one in this world, even if others don't use Whatsapp. This removes the confusion and boundaries that hinder quick disaster response/recovery. 
+- Disaster recovery organization and logistics is made super easy thanks to Sparrow. Sparrow is primarily a communication platform that connects and combines all other communication platforms. Use existing apps like Whatsapp to start recovery efforts and reach out to every-one in this world, even if others don't use Whatsapp. This removes the confusion and boundaries that hinder quick disaster response/recovery.
 
 <br>
 Scope and potential use-cases of Sparrow platform are endless – get expert help of any form, track people, send updates, reach out to family, etc. without worrying about the availability of 'correct' hardware, connectivity, software, etc. Sparrow could also be a ‘ubiquitous interface’ for 911, 100, American Redcross or similar services. 
