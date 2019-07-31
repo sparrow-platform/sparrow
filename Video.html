@@ -25,8 +25,8 @@
     <meta property="og:description" content="An Intelligent ubiquitous communication platform for medical and psychological well-being of disaster victims" />
     <meta property="og:image" content="images/sparrow/sparrowLogoSquared.png" />
     <meta property="og:image:url" content="images/sparrow/sparrowLogoSquared.png" />
-		<link rel="shortcut icon" type="image/x-icon" href="images/sparrow/sparrowLogoSquared.png" />
-		<link rel="apple-touch-icon-precomposed" href="images/sparrow/sparrowLogoSquared.png">
+    <link rel="shortcut icon" type="image/x-icon" href="images/sparrow/sparrowLogoSquared.png" />
+    <link rel="apple-touch-icon-precomposed" href="images/sparrow/sparrowLogoSquared.png">
     <link rel="icon" sizes="192x192" href="images/sparrow/sparrowLogoSquared.png">
     <link rel="shortcut icon" type="image/x-icon" href="images/sparrow/sparrowLogoSquared.png" />
     <link rel="apple-touch-icon-precomposed" href="images/sparrow/sparrowLogoSquared.png"/>
@@ -42,19 +42,40 @@
 
     <meta name="theme-color" content="#ffffff ">
 
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/home.css">
+
+    <!-- Compiled and minified JavaScript --> 
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+
     <style>
     .videoContainer {
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 90%;
     top: 0;
     left: 0;
-    bottom: 0;
     right: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    }
+
+    .linkToSparrow{
+        position: absolute;
+        width: 100%;
+        height: 10%;
+        top:90%;
+        text-align: center;
     }
 
     iframe {
@@ -73,6 +94,15 @@
     <div class="videoContainer">
         <iframe class="videoContainer__video"  src="https://www.youtube.com/embed/N8Uf9miIKjU?autoplay=1" frameborder="0"></iframe>
     </div>
+
+    <div class="center linkToSparrow">
+        <h3 class="flow-text">
+            <a class="waves-effect waves-light cyan darken-2 btn"  target="_blank" href="https://www.sparrow-platform.com">Click here</a>
+            to visit Sparrow Platform website
+        </h3>
+                          
+    </div>
+    
 
 
 </body>
