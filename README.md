@@ -4,6 +4,8 @@ This is the build repository for sparrow-platform.com, and the README summarizes
 For detailed information on Sparrow Plaform, visit www.sparrow-platform.com
 <br>
 Find other Sparrow Platform repos at - https://github.com/sparrow-platform
+<br>
+Business Plan (Initial draft) - https://github.com/sparrow-platform/sparrow/blob/master/Sparrow%20Plan.pptx
 
 
 <p align="center">
