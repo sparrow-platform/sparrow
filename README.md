@@ -4,8 +4,6 @@ This is the build repository for sparrow-platform.com, and the README summarizes
 For detailed information on Sparrow Plaform, visit www.sparrow-platform.com
 <br>
 Find other Sparrow Platform repos at - https://github.com/sparrow-platform
-<br>
-Business Plan (Initial draft) - https://github.com/sparrow-platform/sparrow/blob/master/Sparrow%20Plan.pptx
 
 
 <p align="center">
@@ -189,4 +187,6 @@ We invite Developers and medical experts to improve Sparrow Platform.<br>
 <img max-height=800 height=800  src="https://raw.githubusercontent.com/sparrow-platform/design/master/Timeline/TimeLineImage.png"/>
 </p>
 
+<br>
+Business Plan (Initial draft) - https://github.com/sparrow-platform/sparrow/blob/master/Sparrow%20Plan.pptx
 
