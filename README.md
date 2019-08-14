@@ -3,7 +3,7 @@ This is the build repository for sparrow-platform.com, and the README summarizes
 <br>
 For detailed information on Sparrow Plaform, visit www.sparrow-platform.com
 <br>
-Find other Sparrow Platform repos at - https://github.com/sparrow-platform
+Find other Sparrow Platform repos, installation/build instructions in individual component repos at - https://github.com/sparrow-platform
 
 
 <p align="center">
@@ -11,7 +11,14 @@ Find other Sparrow Platform repos at - https://github.com/sparrow-platform
 </p>
 
 
+### Updates
+```
+August 2019 - Sparrow now has 500 users and 50 doctors!
+July 2019 - We won Angelhack virtual hackathon IBM Challenge!
+June 2019 - Sparrow Platform alpha test 1 successful with 200 users
+```
 
+<br><br>
 
 
 # Sparrow Platform Summary
@@ -189,4 +196,5 @@ We invite Developers and medical experts to improve Sparrow Platform.<br>
 
 <br>
 Business Plan (Initial draft) - https://github.com/sparrow-platform/sparrow/blob/master/Sparrow%20Plan.pptx
+<br>
 
