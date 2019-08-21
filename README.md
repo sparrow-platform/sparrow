@@ -24,9 +24,7 @@ August 2019 - Sparrow now has 500 users and 50 doctors!
 July 2019 - We won Angelhack virtual hackathon IBM Challenge!
 June 2019 - Sparrow Platform alpha test 1 successful with 200 users
 ```
-
-<br><br>
-
+<br>
 
 # Sparrow Platform Summary
 Medical and psychological well-being during and after disasters is a two-part communication and logistics problem –<br>
