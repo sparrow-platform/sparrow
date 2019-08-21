@@ -1,9 +1,15 @@
 
 This is the build repository for sparrow-platform.com, and the README summarizes Sparrow Platform
 <br>
-For detailed information on Sparrow Plaform, visit www.sparrow-platform.com
-<br>
 Find other Sparrow Platform repos, installation/build instructions in individual component repos at - https://github.com/sparrow-platform
+
+### Sparrow platform Website:
+Visit the website to get a 'non-technical' detailed description of Sparrow components
+<br>Product landing page - https://sparrow-platform.com/
+<br>Video - https://sparrow-platform.com/Video.html
+<br>Sparrow Net - https://sparrow-platform.com/Net.html
+<br>Sparrow AI - https://sparrow-platform.com/AI.html
+<br>Sparrow Applets - https://sparrow-platform.com/Apps.html
 
 
 <p align="center">
