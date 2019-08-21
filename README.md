@@ -3,6 +3,13 @@ This is the build repository for sparrow-platform.com, and the README summarizes
 <br>
 Find other Sparrow Platform repos, installation/build instructions in individual component repos at - https://github.com/sparrow-platform
 
+
+<p align="center">
+<img max-height=100 height=200  src="https://raw.githubusercontent.com/sparrow-platform/design/master/Video/thumbnailSparrow.png"/>
+</p>
+
+
+
 ### Sparrow platform Website:
 Visit the website to get a 'non-technical' detailed description of Sparrow components
 <br>Product landing page - https://sparrow-platform.com/
@@ -10,12 +17,6 @@ Visit the website to get a 'non-technical' detailed description of Sparrow compo
 <br>Sparrow Net - https://sparrow-platform.com/Net.html
 <br>Sparrow AI - https://sparrow-platform.com/AI.html
 <br>Sparrow Applets - https://sparrow-platform.com/Apps.html
-
-
-<p align="center">
-<img max-height=100 height=200  src="https://raw.githubusercontent.com/sparrow-platform/design/master/Video/thumbnailSparrow.png"/>
-</p>
-
 
 ### Updates
 ```
