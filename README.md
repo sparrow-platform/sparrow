@@ -1,7 +1,7 @@
 
 This is the build repository for sparrow-platform.com, and the README summarizes Sparrow Platform
 <br>
-Find other Sparrow Platform repos, installation/build instructions in individual component repos at - https://github.com/sparrow-platform
+Find Sparrow Platform repos, installation/build instructions and technical details in individual component repos at - https://github.com/sparrow-platform
 
 
 <p align="center">
