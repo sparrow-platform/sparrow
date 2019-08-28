@@ -165,6 +165,7 @@ Medical facts guide
 Medicines guide
 Offline EMR vault
 ```
+Check the Application repo at - https://github.com/sparrow-platform/android
 
 ## One stop solutions for medical records 
 Sparrow serves as a one-stop medical records storage solution. Sparrow can connect to most commonly used EMR systems to fetch and aggregate medical documents, allows users to upload paper based medical records and digitize them. Sparrow saves copy of all user's medical records on a phone based vault, and a secure cloud. In offline conditions, users can share medical records from their offline-vault using Sparrow app via Sparrow Mesh. When connected to internet, they can use any messaging applications to access or share their medical records.
