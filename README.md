@@ -153,8 +153,21 @@ More details on disease diagnostic engine repo -
 https://github.com/sparrow-platform/disease-diagnostics-engine
 <br><br>
 SPARROW CBT:<br>
-We implemented Cognitive Behavioural therapy in Sparrow AI through Watson Assistant. (Check the watson assistant repository for more details - https://github.com/sparrow-platform/watson-cloud-functions)
+We implemented Cognitive Behavioural therapy in Sparrow AI through Watson Assistant. (Check the watson assistant repository for more details - https://github.com/sparrow-platform/watson-cloud-functions)<br>
+Sparrow is a psychology expert who can detect emotions/moods of people, counsel them through tough times by enforcing positive and rational thinking.
 
+## Offline features for disaster situations
+Sparrow is prepared for the times when no form of communication is available. Sparrow Application comes with numerous AI enabled tools that work without internet or mesh network connectivity.
+```
+Translate tools
+Offline diseases diagnostics
+Medical facts guide
+Medicines guide
+Offline EMR vault
+```
+
+## One stop solutions for medical records 
+Sparrow serves as a one-stop medical records storage solution. Sparrow can connect to most commonly used EMR systems to fetch and aggregate medical documents, allows users to upload paper based medical records and digitize them. Sparrow saves copy of all user's medical records on a phone based vault, and a secure cloud. In offline conditions, users can share medical records from their offline-vault using Sparrow app via Sparrow Mesh. When connected to internet, they can use any messaging applications to access or share their medical records.
 
 <br><br><br>
 # IBM Cloud at heart
