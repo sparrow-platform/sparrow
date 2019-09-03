@@ -10,7 +10,7 @@ Find Sparrow Platform repos, installation/build instructions and technical detai
 
 
 
-### Sparrow platform Website:
+### Sparrow platform Website: <a name="links"></a>
 Visit the website to get a 'non-technical' detailed description of Sparrow components
 <br>Product landing page - https://sparrow-platform.com/
 <br>Video - https://sparrow-platform.com/Video.html
@@ -26,21 +26,53 @@ June 2019 - Sparrow Platform alpha test 1 successful with 200 users
 ```
 <br>
 
-# Sparrow Platform Summary
+
+# Table of Contents
+1. [Project Summary](#summary)<br> 
+a. [The Problem](#problem)<br>
+b. [Our Solution](#solution)<br>
+2. [Platform Components](#components)<br>
+  a. [Sparrow Net](#sparrow-net)<br>
+  b. [Sparrow Experts community](#sparrow-expert-com)<br>
+  c. [Sparrow AI](#sparrow-ai)<br>
+  d. [Sparrow Applets](#sparrow-applets)<br>
+3. [Architecture](#architecture)<br>
+  a. [Sparrow Interfaces](#interfaces)<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;i. [Integration with existing chat apps](#chat-apps)<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;ii. [Sparrow Mesh](#mesh)<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;iii. [Integration with Project Owl](#clusterduck)<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;iv. [Sparrow App](#sparrow-app)<br>
+  b. [Routing messages](#routing-to-middleware)<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;i. [MQTT server](#mqtt)<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;ii. [Twilio / Unification engine](#unification)<br>
+  c. [Cloud Engine](#middleware)<br>
+  d. [Sparrow AI](#AI)<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;i. [Disease Diagnostic engine](#disease-diagnostics)<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;ii. [Cognitive behavioural therapy](#cbt)<br>
+  e. [Offline intelligence and management](#offline)<br>
+  f. [Medical Records management](#medical-records)<br>
+4. [IBM Cloud](#ibm)<br>
+5. [Open Source](#open-source)<br>
+  a. [Developers contributions](#developers)<br>
+  b. [Medical experts contributions](#medical-experts)<br>
+6. [Road map](#roadmap)<br>
+
+
+# Sparrow Platform Summary <a name="summary"></a>
 Medical and psychological well-being during and after disasters is a two-part communication and logistics problem –<br>
 1. Ensure expertise and information/updates is always accessible to those in need<br>
 2. Enable experts, responders, and information from around the world reach directly to those in need<br>
 
 
 
-## The Problem:
+## The Problem: <a name="problem"></a>
 -  Making medical help available to disaster victims is a 'High demand, low supply' problem. There aren't many experts (doctors) on the ground who can deliver correct medical advice. Telemedicine is a solution but often a bottleneck in disaster management. On the other hand, many doctors around the world want to help disaster victims but have no possible way to reach them.
 - Psychological well-being requires on-demand access to expertise and timely follow-ups. Telemedicine or traditional medical infrastructure is not equipped to deliver it during/after disasters.
 - Disaster victims need access to all information which is siloed in various applications or communication platforms. Creating another communications platform or another information database will add to the list of such siloed applications.
 - All systems for disaster recovery need to work in 'Offline' conditions as the traditional network is often unavailable during disasters.
 
 
-## Sparrow Platform is the solution:
+## Sparrow Platform is the solution: <a name="solution"></a>
 Sparrow is an open-source AI-enabled platform that serves as a one-stop enabler of medical and psychological well-being during and after disasters.
 
 For users, Sparrow is an extremely easy-to-use conversational AI, accessible from any existing Chat app. Ask questions, and Sparrow ensures you get what you need. Sparrow achieves this by being user’s single point of connection with all applications, communication platforms, doctors/experts, etc. 
@@ -64,10 +96,9 @@ Scope and potential use-cases of Sparrow platform are endless – get expert hel
 
 <br><br><br>
 
-# Sparrow Platform components
+# Sparrow Platform components <a name="components"></a>
 
-## Sparrow Net
-
+## Sparrow Net <a name="sparrow-net"></a>
 
 The sparrow Net involves the ‘middleware’ which connects users to 
 ```
@@ -81,7 +112,7 @@ Sparrow Net is powered by ‘Sparrow Middleware’ - The cloud engine for Sparro
 Sparrow Net is like 'Uber for medical expertise'. Medical experts, first responders, etc can onboard Sparrow platform from anywhere in the world. Disaster victims are directly connected to these experts by Sparrow. Just like Uber connects riders with drivers. 
 
 
-## Expert Community via SparowNet
+## Expert Community via SparowNet <a name="sparrow-expert-com"></a>
 
 As shown in the image, Sparrow is the link between disaster victims and medical experts around the world. 
 The key idea is to allow users access Sparrow Platform features through anywhere and any application. 
@@ -89,7 +120,7 @@ Similarly, we also want medical experts (Doctors,  psychiatrists, etc) reach out
 Sparrow aims to bridge the gap that exists between them due to different geographies, different apps in use, different languages, etc. 
 
 
-## Sparrow AI
+## Sparrow AI <a name="sparrow-ai"></a>
 
 Sparrow Platform ensures that disaster victims always have access to help. 
 Sparrow AI is a AI trained over 30 years of medical data. 
@@ -97,7 +128,7 @@ It can diagnose diseases, recommend medicines, give information about disease-sy
 SparrowAI also aids during conversations between experts and victims by helping structure conversations, summarize data and check facts.
 
 
-## Sparrow Apps ecosystem
+## Sparrow Apps ecosystem <a name="sparrow-applets"></a>
 
 Just as sparrow Net enables users to reach out to any experts around the world, the idea is to enable users to access information from any apps through ‘Sparrow Applets’. We have built Sparrow Middleware in a way that developers can create new Sparrow Applets and make information available to users. 
 During disasters, information is scattered in 100s of dashboards, chat application ‘groups’. There is no way to access all of this information. The applet ecosystem bridges this gap. Developers can create applets to make sure data from all platforms ia available everywhere. 
@@ -105,7 +136,7 @@ During disasters, information is scattered in 100s of dashboards, chat applicati
 “No disaster victim should suffer becuase he/she is not on a Whatsapp group”
 
 <br><br><br>
-# Architecture and implementation
+# Architecture and implementation <a name="architecture"></a>
 Sparrow Platform spans multiple hardware and software stacks. 
 <p align="center">
 <img max-height=500  src="https://raw.githubusercontent.com/sparrow-platform/sparrow/master/images/sparrow/SparrowOverallArchitecrture.png"/>
@@ -113,23 +144,23 @@ Sparrow Platform spans multiple hardware and software stacks.
 
 
 
-## Sparrow interfaces
-Chat Apps:<br>
+## Sparrow interfaces <a name="interfaces"></a>
+Chat Apps: <a name="chat-apps"></a>  <br> 
 Users can use any chat app to send queries to Sparrow. Sparrow Middleware is the cloud engine to unify all such apps. (Check more info at - https://github.com/sparrow-platform/community-connect-middleware)
 <br><br>
-Sparrow Mesh:<br>
+Sparrow Mesh: <a name="mesh"></a><br>
 Peer to Peer mesh based on smarthpones, to ensure Sparrow is reachable even when internet is down(Check more at - https://github.com/sparrow-platform/sparrow-mesh)
 <br><br>
-LoRa mesh: <br>
+LoRa mesh:<a name="clusterduck"></a><br>
 Project Owl inspired implementaiton of LoRa protocol mesh. LoRa mesh delivers a chat interface from Wifi endpoints created by ‘Ducks’. This mesh ensures connectivity when traditinal internet is down. (Check more at - https://github.com/sparrow-platform/duck-sparrow-link)
 <br><br>
-Sparrow App:<br>
+Sparrow App: <a name="sparrow-app"></a><br>
 Sparrow App is a part of Sparrow Mesh, but it also is a direct connection to Sparrow MQTT server when internet is available. (Check more at - https://github.com/sparrow-platform/sparrow-android)
 
 
 
-## Routing message to middleware
-MQTT Server:<br>
+## Routing message to middleware <a name="routing-to-middleware"></a>
+MQTT Server: <a name="mqtt"></a><br>
 Messages from custom internet connected interfaces can reach Sparrow via our MQTT broker. 
 ```
 Publish topic - sparrow_receive/$userID
@@ -137,26 +168,26 @@ Subscribe topic - sparrow_response/$userID
 ```
 SparrowMesh and ClusterDuck messages reach sparrow through MQTT protocol.
 <br><br>
-Twilio/Unification engine:<br>
+Twilio/Unification engine: <a name="unification"></a><br>
 We use Twilio chatbot engine for capturing messages from chat applications and forwarding it to Sparrow Middleware. (Check more info at - https://github.com/sparrow-platform/community-connect-middleware)
 
 
-## Middleware
+## Middleware <a name="middleware"></a>
 Sparrow Middleware handles routing messages received from users to correct apps / medical experts. Its the 'Many to Many' routing engine for various chat apps, sparrow applets, social media platforms, networks, etc. (More details on middleware repo - https://github.com/sparrow-platform/community-connect-middleware)
 
 
 
-## Sparrow AI
-Disease Diagnostic engine:<br>
+## Sparrow AI<a name="AI"></a>
+Disease Diagnostic engine: <a name="disease-diagnostics"></a><br>
 Disease diagnostics engine is API that Sparrow core conversation service talks to in order to provide rich medical data and information. 
 More details on disease diagnostic engine repo - 
 https://github.com/sparrow-platform/disease-diagnostics-engine
 <br><br>
-SPARROW CBT:<br>
+SPARROW CBT: <a name="cbt"></a><br>
 We implemented Cognitive Behavioural therapy in Sparrow AI through Watson Assistant. (Check the watson assistant repository for more details - https://github.com/sparrow-platform/watson-cloud-functions)<br>
 Sparrow is a psychology expert who can detect emotions/moods of people, counsel them through tough times by enforcing positive and rational thinking.
 
-## Offline features for disaster situations
+## Offline features for disaster situations <a name="offline"></a>
 Sparrow is prepared for the times when no form of communication is available. Sparrow Application comes with numerous AI enabled tools that work without internet or mesh network connectivity.
 ```
 Translate tools
@@ -167,11 +198,11 @@ Offline EMR vault
 ```
 Check the Application repo at - https://github.com/sparrow-platform/android
 
-## One stop solutions for medical records 
+## One stop solutions for medical records <a name="medical-records"></a>
 Sparrow serves as a one-stop medical records storage solution. Sparrow can connect to most commonly used EMR systems to fetch and aggregate medical documents, allows users to upload paper based medical records and digitize them. Sparrow saves copy of all user's medical records on a phone based vault, and a secure cloud. In offline conditions, users can share medical records from their offline-vault using Sparrow app via Sparrow Mesh. When connected to internet, they can use any messaging applications to access or share their medical records.
 
 <br><br><br>
-# IBM Cloud at heart
+# IBM Cloud at heart <a name="ibm"></a>
 Sparrow Platform uses IBM cloud. It uses IBM cloud/Watson for it's core functionalities. 
 <br>
 IBM features used by Sparrow platform - 
@@ -192,15 +223,15 @@ Sparrow Android App medical records cloud backup (Currently on Google Firebase) 
 
 
 <br><br><br>
-# Opensource software
+# Opensource software <a name="open-source"></a>
 Sparrow Platform is "Built for community, by the community" (Apache 2.0 license). <br>
 We invite Developers and medical experts to improve Sparrow Platform.<br>
 
-## How can developers contribute?
+## How can developers contribute? <a name="developers"></a>
 - Bring existing applications to Sparrow by building Sparrow Applets
 - Help us improve Sparrow Platform by helping us fix bugs and add features 
 
-## How can medical experts contribute?
+## How can medical experts contribute? <a name="medical-experts"></a>
 - Help us improve Sparrow AI content
 - Improve Sparrow CBT 
 - Onboard Sparrow to help disaster victims when they need help 
@@ -208,7 +239,7 @@ We invite Developers and medical experts to improve Sparrow Platform.<br>
 
 <br><br><br>
 
-# Sparrow Platform Roadmap
+# Sparrow Platform Roadmap <a name="roadmap"></a>
 <p align="center">
 <img max-height=800 height=800  src="https://raw.githubusercontent.com/sparrow-platform/design/master/Timeline/TimeLineImage.png"/>
 </p>
