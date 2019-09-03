@@ -10,7 +10,7 @@ Find Sparrow Platform repos, installation/build instructions and technical detai
 
 
 
-### Sparrow platform Website: <a name="links"></a>
+### Sparrow platform links: <a name="links"></a>
 Visit the website to get a 'non-technical' detailed description of Sparrow components
 <br>Product landing page - https://sparrow-platform.com/
 <br>Video - https://sparrow-platform.com/Video.html
