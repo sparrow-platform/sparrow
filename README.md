@@ -171,9 +171,8 @@ SparrowMesh and ClusterDuck messages reach sparrow through MQTT protocol.
 <br><br>
 Twilio/Unification engine: <a name="unification"></a><br>
 We use Twilio chatbot engine for capturing messages from chat applications and forwarding it to Sparrow Middleware. (Check more info at - https://github.com/sparrow-platform/community-connect-middleware)
-
 <br><br>
-Broadcast to multiple platforms <a name="broadcast"></a>
+Broadcast to multiple platforms: <a name="broadcast"></a><br>
 We use combination of Social media platform webhooks, Twilio and Selenium to broadcast messages coming from Sparrow to various Social media platforms. (Check more info at - https://github.com/sparrow-platform/broadcast-engine)
 
 ## Middleware <a name="middleware"></a>
