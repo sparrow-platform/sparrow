@@ -95,7 +95,14 @@ For users, Sparrow is an extremely easy-to-use conversational AI, accessible fro
 Scope and potential use-cases of Sparrow platform are endless – get expert help of any form, track people, send updates, reach out to family, etc. without worrying about the availability of 'correct' hardware, connectivity, software, etc. Sparrow could also be a ‘ubiquitous interface’ for 911, 100, American Redcross or similar services. 
 
 
-<br><br><br>
+
+
+<br><br>
+<p align="center">
+<img height=500 src="https://raw.githubusercontent.com/sparrow-platform/sparrow/master/images/sparrow/summary.png"/>
+</p>
+
+<br>
 
 # Sparrow Platform components <a name="components"></a>
 
@@ -247,6 +254,5 @@ We invite Developers and medical experts to improve Sparrow Platform.<br>
 </p>
 
 <br>
-Business Plan (Initial draft) - https://github.com/sparrow-platform/sparrow/blob/master/Sparrow%20Plan.pptx
-<br>
-
+## Business Plan (Initial draft) <br> 
+https://github.com/sparrow-platform/sparrow/blob/master/Sparrow%20Plan.pptx
