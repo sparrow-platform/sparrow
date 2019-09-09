@@ -45,6 +45,7 @@ b. [Our Solution](#solution)<br>
   b. [Routing messages](#routing-to-middleware)<br>
     &nbsp;&nbsp;&nbsp;&nbsp;i. [MQTT server](#mqtt)<br>
     &nbsp;&nbsp;&nbsp;&nbsp;ii. [Twilio / Unification engine](#unification)<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;iii. [Broadcast to social media](#broadcast)<br>
   c. [Cloud Engine](#middleware)<br>
   d. [Sparrow AI](#AI)<br>
     &nbsp;&nbsp;&nbsp;&nbsp;i. [Disease Diagnostic engine](#disease-diagnostics)<br>
@@ -171,10 +172,12 @@ SparrowMesh and ClusterDuck messages reach sparrow through MQTT protocol.
 Twilio/Unification engine: <a name="unification"></a><br>
 We use Twilio chatbot engine for capturing messages from chat applications and forwarding it to Sparrow Middleware. (Check more info at - https://github.com/sparrow-platform/community-connect-middleware)
 
+<br><br>
+Broadcast to multiple platforms <a name="broadcast"></a>
+We use combination of Social media platform webhooks, Twilio and Selenium to broadcast messages coming from Sparrow to various Social media platforms. (Check more info at - https://github.com/sparrow-platform/broadcast-engine)
 
 ## Middleware <a name="middleware"></a>
 Sparrow Middleware handles routing messages received from users to correct apps / medical experts. Its the 'Many to Many' routing engine for various chat apps, sparrow applets, social media platforms, networks, etc. (More details on middleware repo - https://github.com/sparrow-platform/community-connect-middleware)
-
 
 
 ## Sparrow AI<a name="AI"></a>
