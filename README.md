@@ -20,6 +20,7 @@ Visit the website to get a 'non-technical' detailed description of Sparrow compo
 
 ### Updates
 ```
+September 2019 - Sparrow is finalist at Callforcode 19!
 August 2019 - Sparrow now has 500 users and 50 doctors!
 July 2019 - We won Angelhack virtual hackathon IBM Challenge!
 June 2019 - Sparrow Platform alpha test 1 successful with 200 users
