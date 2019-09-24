@@ -250,5 +250,33 @@
   
 
     </body>
+                        
+                        
+                        <script>
+    $(document).ready(function(){
+        $('.sidenav').sidenav();
+        $('.modal').modal();
+        $('.tooltipped').tooltip(); 
+        
+        $('.collapsible').collapsible();
+        
+        $('.carousel').carousel();
+        $('.carousel').carousel({
+            numVisible:3
+        });
+    
+    });
+    
+    
+    $(window).on("load", function() {
+        $('.carousel').carousel();
+        $('.carousel').carousel({
+            numVisible:3
+        });
+    
+    // M.toast({html: '@CallForCode: Check Sparrow Net, AI and Applets webpages for additional details', classes: 'rounded', 'displayLength' : 9000});
+    
+    });
+    </script>
 
 </html>
